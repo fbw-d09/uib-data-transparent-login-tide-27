@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="login">
-      <h1>Login</h1>
-      <br />
-      <input
-        type="email"
-        name="inputemail"
-        id="email-input"
-        placeholder="@ Your email..."
-      />
-      <br />
-      <input
-        type="password"
-        name="inputpassword"
-        id="password-input"
-        placeholder="🔐️ Your password..."
-        maxlength="16"
-        minlength="8"
-      />
-      <br />
-      <input type="submit" id="sign" value="Sign in" />
-    </div>
+    <form action="">
+      <div class="login">
+        <h1>Login</h1>
+        <br />
+        <input
+          class="email"
+          type="email"
+          name="inputemail"
+          id="email-input"
+          placeholder="@ Your email..."
+        />
+        <br />
+        <input
+          style="color: rgb(255, 0, 0)"
+          type="password"
+          name="inputpassword"
+          id="password-input"
+          placeholder="🔐️ Your password..."
+          maxlength="16"
+          minlength="8"
+        />
+        <br />
+        <input type="submit" id="sign" value="Sign in" />
+      </div>
+    </form>
   </body>
 </html>
