@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+
+  /* filter: grayscale(50%); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./002.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: none;
+  border: 1px solid lime;
+  height: 470px;
+  color: white;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  background-color: none;
+  letter-spacing: 5px;
+  text-shadow: 2px 5px 7px lime;
+}
+
+#password-input {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  /* border: 1px solid rgb(39, 206, 6); */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid lime;
+  /* background: rgba(20, 20, 20, 0.2); */
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border-radius: 10px;
+}
+
+#email-input {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  /* border: 2px solid rgb(24, 180, 10); */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid lime;
+  /* background: rgba(20, 20, 20, 0.2); */
+  background-color: transparent;
+  outline: none;
+  border-radius: 10px;
+}
+
+#sign {
+  border: 3px solid lime;
+  /* background: rgba(20, 20, 20, 0.5); */
+  background-color: transparent;
+  font-size: 18px;
+  width: 270px;
+  margin-top: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 10px;
+  letter-spacing: 3px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
